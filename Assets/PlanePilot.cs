@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -12,10 +12,16 @@ public class PlanePilot : MonoBehaviour {
 		Debug.Log("plane pilot script added to : " + gameObject.name);
 		
 	}
-	
+	void GameLost() {
+//fhdusiohfj
+	}
 
 	void Update () {
 
+		//if (Input.GetMouseButtonDown (1)) {
+		//	
+		//}
+			
 		Vector3 moveCamTo = transform.position - transform.forward * 12.0f + Vector3.up * 5;
 			Camera.main.transform.position = moveCamTo;
 		Camera.main.transform.LookAt(transform.position + transform.forward * 30.0f);

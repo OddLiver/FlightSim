@@ -14,7 +14,14 @@ UnityEngine.AI.NavMeshAgent agent;
 	void Update () {
 		
 	}
-	void TargetHit () {
+	public void TargetHit () {
+		Debug.Log("hitting");
+		Fire.SetActive(true);
+
+		gameObject.transform.parent.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
+	}
+	void DeathMan () {
+		Debug.Log("hitting");
 		Fire.SetActive(true);
 
 		gameObject.transform.parent.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;

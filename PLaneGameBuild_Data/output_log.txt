@@ -2,56 +2,20 @@ Initialize engine version: 5.5.0f3 (38b4efef76f0)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 750 (ID=0x1381)
+    Renderer: NVIDIA GeForce GTX 750 Ti (ID=0x1380)
     Vendor:   NVIDIA
     VRAM:     2017 MB
     Driver:   23.21.13.8813
 Begin MonoManager ReloadAssembly
-Platform assembly: \\DESKTOP-RICR0AV\StudentFiles\Oliver Yeaman\FlightSim\PLaneGameBuild_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading \\DESKTOP-RICR0AV\StudentFiles\Oliver Yeaman\FlightSim\PLaneGameBuild_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: \\DESKTOP-RICR0AV\StudentFiles\Oliver Yeaman\FlightSim\PLaneGameBuild_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading \\DESKTOP-RICR0AV\StudentFiles\Oliver Yeaman\FlightSim\PLaneGameBuild_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: \\DESKTOP-RICR0AV\StudentFiles\Oliver Yeaman\FlightSim\PLaneGameBuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading \\DESKTOP-RICR0AV\StudentFiles\Oliver Yeaman\FlightSim\PLaneGameBuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: \\DESKTOP-RICR0AV\StudentFiles\Oliver Yeaman\FlightSim\PLaneGameBuild_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
-Loading \\DESKTOP-RICR0AV\StudentFiles\Oliver Yeaman\FlightSim\PLaneGameBuild_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
-- Completed reload, in  0.777 seconds
+Platform assembly: C:\Users\MV Coder\Desktop\FlightSim\PLaneGameBuild_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\MV Coder\Desktop\FlightSim\PLaneGameBuild_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\MV Coder\Desktop\FlightSim\PLaneGameBuild_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\MV Coder\Desktop\FlightSim\PLaneGameBuild_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\MV Coder\Desktop\FlightSim\PLaneGameBuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\MV Coder\Desktop\FlightSim\PLaneGameBuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\MV Coder\Desktop\FlightSim\PLaneGameBuild_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\MV Coder\Desktop\FlightSim\PLaneGameBuild_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+- Completed reload, in  0.023 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-<RI> Initialized touch support.
-The referenced script on this Behaviour (Game Object 'Tree_A (1)') is missing!
- 
-(Filename:  Line: 1754)
-
-The referenced script on this Behaviour (Game Object 'Tree_A') is missing!
- 
-(Filename:  Line: 1754)
-
-The referenced script on this Behaviour (Game Object 'Tree_B') is missing!
- 
-(Filename:  Line: 1754)
-
-UnloadTime: 2.357802 ms
-plane pilot script added to : Player
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Setting up 1 worker threads for Enlighten.
-  Thread -> id: f98 -> priority: 1 
-hitpanzer
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-hitpanzer
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-hitpanzer
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-hitpanzer
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-

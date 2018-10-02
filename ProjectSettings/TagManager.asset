@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Target
   - Boundary
+  - range
+  - town
   layers:
   - Default
   - TransparentFX
