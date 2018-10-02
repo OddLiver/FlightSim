@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class TargetExplode : MonoBehaviour {
-public GameObject Fire;
-UnityEngine.AI.NavMeshAgent agent;
+	public GameObject Fire;
+	UnityEngine.AI.NavMeshAgent agent;
 	// Use this for initialization
 	void Start () {
 		
@@ -20,7 +20,7 @@ UnityEngine.AI.NavMeshAgent agent;
 
 		gameObject.transform.parent.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
 	}
-	void DeathMan () {
+	public void DeathMan () {
 		Debug.Log("hitting");
 		Fire.SetActive(true);
 

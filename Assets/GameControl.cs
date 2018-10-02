@@ -5,14 +5,19 @@ using UnityEngine;
 public class GameControl : MonoBehaviour {
 public int hell;
 public int lost = 0;
+public TargetExplode te;
 	void Start () {
-		
+		te = GetComponentInChildren<TargetExplode>();
+
 	}
 	
+
+
+
 	// Update is called once per frame
 	void Update () {
 	
-	hell = Random.Range(1, 1);
+		hell = Random.Range(1, 100);
 	
 	if(lost > 4) {
 		gameObject.SendMessage("GameLost");
@@ -32,7 +37,8 @@ public int lost = 0;
 			Debug.Log("enterrange");
 			  if(hell == 1) {
 			  	Debug.Log("ded");
-      		this.gameObject.SendMessage("DeathMan");
+			 	te.DeathMan();
+      		//this.gameObject.SendMessage("DeathMan");
         //this.GetComponent("TargetExplode.cs").TargetHit();
         //playerScript.TargetHit;
 		}
